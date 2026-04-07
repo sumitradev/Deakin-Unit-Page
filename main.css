@@ -1,9 +1,13 @@
-
+div {
+  background-color: darkcyan;  /* header background */
+  text-align: right;            /* logo alignment */
+}
 
 h1 {
   font-size: 40px;
-  font-family: Arial
+  font-family: Arial;
 }
+
 h2 {
   font-size: 25px;
   font-family: Arial
