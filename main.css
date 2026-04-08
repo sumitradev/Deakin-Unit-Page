@@ -3,6 +3,8 @@ div {
   text-align: right;            /* logo alignment */
 }
 
+
+
 h1 {
   font-size: 40px;
   font-family: Arial;
@@ -29,3 +31,20 @@ tr:nth-child(odd) {
   background-color: #f2f2f2;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between; /* pushes nav left, logo right */
+  align-items: center;
+  padding: 10px;
+}
+
+nav a {
+  color: white;
+  margin-right: 15px;
+  text-decoration: none;
+  font-family: Arial;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
